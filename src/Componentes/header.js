@@ -1,5 +1,6 @@
 import React from "react";
 import '../CSS/header.css';
+import {Button} from "react-bootstrap";
 
 export default function Header () {
     return (
@@ -13,6 +14,11 @@ export default function Header () {
                 <div className="row">
                     <div className="col">
                         <p className="HeaderSubtitle">Kanguros conocidos y verificados · Con experiencia · Video Vigilados · Servicio 24h</p>
+                    </div>
+                </div>
+                <div className="row">
+                    <div className="col">
+                        <Button variant={"dark"} href={"/Reservas"}>Kanguros</Button>
                     </div>
                 </div>
             </div>
