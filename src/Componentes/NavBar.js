@@ -1,6 +1,6 @@
 import React from 'react';
 import {Nav, Navbar, NavDropdown} from "react-bootstrap";
-
+import logo from '../logo192.png';
 export default function NavBar () {
 return (
     <div>
@@ -9,7 +9,7 @@ return (
                 <Navbar.Brand href="/">
                     <img
                         alt=""
-                        src="logo.svg"
+                        src={logo}
                         width="30"
                         height="30"
                         className="d-inline-block align-top"
@@ -25,7 +25,7 @@ return (
                         <Nav.Link href="/">Inicio</Nav.Link>
                         <Nav.Link href="/Reservas">Reservas</Nav.Link>
                         <Nav.Link href="/SobreNosotros">Sobre Nosotros</Nav.Link>
-                        <Nav.Link href="/ComoSerKanguro">Como ser Kanguro</Nav.Link>
+                        <Nav.Link href="/ComoSerKanguro">¿Como ser Kanguro?</Nav.Link>
 
                     </Nav>
                 </Navbar.Collapse>

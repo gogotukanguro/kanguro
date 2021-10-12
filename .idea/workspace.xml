@@ -1,14 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cf08ca1-8e8c-4916-bba9-26fcfb8bfd54" name="Default Changelist" comment="footer prueba">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    <list default="true" id="2cf08ca1-8e8c-4916-bba9-26fcfb8bfd54" name="Default Changelist" comment="Domingo mañana 03/10/21">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CSS/Footer.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS/Footer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/logo192.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSS/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS/Home.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/CSS/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Componentes/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componentes/NavBar.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Componentes/footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componentes/footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Componentes/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componentes/header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Componentes/logo.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Paginas/AboutUs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Paginas/AboutUs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Paginas/ComoSerKanguro.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Paginas/ComoSerKanguro.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Paginas/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Paginas/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Paginas/Reservas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Paginas/Reservas.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +52,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Componentes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Dossier TFG Lucas Garrido Antolino/Projecte" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -60,6 +68,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Lucas\OneDrive\Escritorio\kanguro\src" />
+      <recent name="C:\Users\Lucas\OneDrive\Escritorio\kanguro\src\Componentes" />
+      <recent name="C:\Users\Lucas\OneDrive\Escritorio\kanguro\src\imagenes" />
+      <recent name="C:\Users\Lucas\OneDrive\Escritorio\kanguro\public" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -88,7 +99,8 @@
       <workItem from="1632935731038" duration="5831000" />
       <workItem from="1632953567050" duration="335000" />
       <workItem from="1633096882518" duration="11311000" />
-      <workItem from="1633258742965" duration="1953000" />
+      <workItem from="1633258742965" duration="1998000" />
+      <workItem from="1634052760329" duration="7415000" />
     </task>
     <task id="LOCAL-00001" summary="footer prueba">
       <created>1633108939299</created>
@@ -104,7 +116,14 @@
       <option name="project" value="LOCAL" />
       <updated>1633108948138</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Domingo mañana 03/10/21">
+      <created>1633261611965</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1633261611965</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +144,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Projecto Inicial" />
     <MESSAGE value="footer prueba" />
-    <option name="LAST_COMMIT_MESSAGE" value="footer prueba" />
+    <MESSAGE value="Domingo mañana 03/10/21" />
+    <option name="LAST_COMMIT_MESSAGE" value="Domingo mañana 03/10/21" />
   </component>
 </project>

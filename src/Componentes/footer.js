@@ -7,7 +7,7 @@ export default function Footer () {
             <div className="container">
                 <div className= "row">
                     <div className="col">
-                        <p>Nuestras Paginas 2</p>
+                        <p>Nuestras Paginas</p>
                     </div>
                     <div className="col">
                         <p>Contacto</p>

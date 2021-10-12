@@ -6,17 +6,19 @@ import Footer from "../Componentes/footer";
 
 import '../CSS/Home.css';
 import {Button} from 'react-bootstrap';
+import logo from '../logo.svg';
+
 export default function Home () {
     return(
 
         <div>
             <NavBar/>
-            <Header/>
+            <Header titulo={"GOGO! TU KANGURO!"} descripcion={"Kanguros conocidos y verificados · Con experiencia · Video Vigilados · Servicio 24h"} boton={true}/>
             <div className={"Service"}>
                 <div className="container">
-                    <div className= "row">
+                    <div className="row">
                         <div className="col">
-                            <h5>Encuentra una kanguro siempre que lo necesites</h5>
+                            <h4>Encuentra una kanguro siempre que lo necesites</h4>
 
                             <ul>
                                 <li>Descripción</li>
@@ -25,16 +27,16 @@ export default function Home () {
                             <Button variant={"dark"}>Reservas</Button>
                         </div>
                         <div className="col">
-                            <img src="/public/logo192.png"/>
+                            <img src={logo}/>
                         </div>
 
                     </div>
-                    <div className= "row">
+                    <div className="row">
                         <div className="col">
-                            <img src="/public/logo192.png"/>
+                            <img src={logo}/>
                         </div>
                         <div className="col">
-                            <h5>Nuestros servicios</h5>
+                            <h4>Nuestros servicios</h4>
                             <ul>
                                 <li>Las mejores cuidadoras</li>
                                 <li>Videovigilancia online</li>
@@ -45,9 +47,9 @@ export default function Home () {
                         </div>
                     </div>
 
-                    <div className= "row">
+                    <div className="row">
                         <div className="col">
-                            <h5>Soluciona problemas puntuales</h5>
+                            <h4>Soluciona problemas puntuales</h4>
                             <ul>
                                 <li>Planifica con tiempo</li>
                                 <li>Soluciona imprevistos</li>
@@ -55,16 +57,16 @@ export default function Home () {
                             </ul>
                         </div>
                         <div className="col">
-                            <img src="/public/logo192.png"/>
+                            <img src={logo}/>
                         </div>
                     </div>
 
-                    <div className= "row">
+                    <div className="row">
                         <div className="col">
-                            <img src="/public/logo192.png"/>
+                            <img src={logo}/>
                         </div>
                         <div className="col">
-                            <h5>¡Soluciona problemas con GoGo! Tu Kanguro…</h5>
+                            <h4>¡Soluciona problemas con GoGo! Tu Kanguro…</h4>
                             <ul>
                                 <li>Organiza tu tiempo</li>
                                 <li>Soluciona imprevistos</li>

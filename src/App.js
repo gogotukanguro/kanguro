@@ -13,7 +13,7 @@ import AboutUs from "./Paginas/AboutUs";
 function App() {
   return (
       <div>
-        <Switch>
+          <Switch>
           <Route component={Home} path="/"/>
           <Route component={Reservas} path="/Reservas"/>
           <Route component={AboutUs} path="/SobreNosotros" />
