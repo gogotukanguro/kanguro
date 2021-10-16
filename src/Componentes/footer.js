@@ -11,7 +11,6 @@ export default function Footer () {
                     </div>
                     <div className="col">
                         <p>Contacto</p>
-
                     </div>
                     <div className="col">
                         <p>Información de Interés</p>
