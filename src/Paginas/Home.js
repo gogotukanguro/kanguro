@@ -24,7 +24,7 @@ export default function Home () {
                                 <li>Descripción</li>
                             </ul>
 
-                            <Button variant={"dark"}>Reservas</Button>
+                            <Button variant={"dark"} href={"Reservas"}>Reservas</Button>
                         </div>
                         <div className="col">
                             <img src={logo}/>
