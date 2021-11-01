@@ -36,17 +36,21 @@ export default function Formulario () {
             <Row>
                 <Form.Group as={Col} controlId="formFileDisabled" className="mb-3">
                     <Form.Label>Curriculum</Form.Label>
-                    <Form.Control type="file" />
+                    <br/>
+                    <input type={"file"} accept={".pdf"}/>
+                    <p><small>*Solo se admiten documentos .pdf*</small></p>
+
                 </Form.Group>
             </Row>
             <Row>
                 <Form.Group as={Col} className="mb-3" controlId="ControlTextarea1">
                     <Form.Label>Mensaje</Form.Label>
-                    <Form.Control as="textarea" rows={3} />
+
+                    <Form.Control as="textarea" rows={3} placeholder={"Indroduzca aquí una breve presentación"}/>
                 </Form.Group>
             </Row>
 
-            <Button type="submit" className="mb-2" onClick={() => alerta()}>
+            <Button variant={"dark"} type="submit" className="mb-2" onClick={() => alerta()}>
                 Enviar
             </Button>
         </Form>

@@ -46,9 +46,13 @@ export default function ComoSerKanguro () {
                         <div className="col">
                             <h4>¿Dónde encontranos?</h4>
                             <ul>
-                                <li>Mail: <p className={"Mail"} onClick={() => redirect()}>gogotukanguro@gmail.com</p></li>
-                                <li><p>Teléfono: +34 600 00 00 00</p></li>
-                                <li><p>Localización: Carrer de Víctor Català local 4</p>
+                                <li><p><strong>Mail:</strong></p>
+                                    <p className={"Mail"} onClick={() => redirect()}>gogotukanguro@gmail.com</p></li>
+                                <li><p><strong>Teléfono:</strong></p>
+                                    <p> +34 600 00 00 00</p>
+                                </li>
+                                <li><p><strong>Localización:</strong></p>
+                                    <p>Carrer de Víctor Català local 4</p>
                                     <p>08191 Rubí, Spain</p>
                                 </li>
 
