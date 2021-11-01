@@ -8,9 +8,13 @@ import '../CSS/Home.css';
 import {Button} from 'react-bootstrap';
 
 //imagenes
-import logo from '../planificacionTiempo.jpg';
 
+import logo from '../logo.svg';
+import planificacionTiempo from '../img/planificacionTiempo.png';
+import solucionaImprevistos from '../img/solucionaImprevistos.png';
+import tiempoParaTi from '../img/tiempoParaTi.png';
 
+import nuestrosServicios from '../img/nuestrosServicios.jpg';
 
 
 export default function Home () {
@@ -33,7 +37,7 @@ export default function Home () {
 
                     <div className="row">
                         <div className="col">
-                            <img class="imagen" src={logo}/>
+                            <img class="imagen" src={planificacionTiempo}/>
                         </div>
                         <div className="col">
                             <h3>Planifica con tiempo</h3>
@@ -59,13 +63,13 @@ export default function Home () {
                             </ul>
                         </div>
                         <div className="col">
-                            <img src={logo}/>
+                            <img src={solucionaImprevistos}/>
                         </div>
                     </div>
 
                     <div className="row">
                         <div className="col">
-                            <img src={logo}/>
+                            <img src={tiempoParaTi}/>
                         </div>
                         <div className="col">
                             <h3>Dedícate tiempo para ti</h3>
@@ -134,7 +138,7 @@ export default function Home () {
                             </ul>
                             </div>
                             <div className="col">
-                                <img src={logo}/>
+                                <img class="imagen2" src={nuestrosServicios}/>
                             </div>
                         </div>
 
