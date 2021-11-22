@@ -4,6 +4,7 @@
 
 }
 
+
 .Service .row {
     margin-top: 20px;
 }
@@ -31,30 +32,26 @@ text-align:justify;
     width: 100%;
 
 }
-.Service .recuardo1eracolumna .Textorecuadro{
-    margin-left: 10em;
-}
-.Service .recuardo2ndacolumna .Textorecuadro{
-    margin-right: 10em;
-}
+
 .recuardo1eracolumna{
-    margin-right: auto;
-background:linear-gradient(to right,rgb(0, 255, 255, 0.768),rgb(0, 255, 255, 0.768),rgb(0, 255, 255, 0.768),rgb(0, 255, 255, 0.768),rgba(255, 217, 0, 0.645));
-text-align:justify;
+
+    text-align:center;
+    padding: 5em;
 }
 
 .recuardo2ndacolumna{
-background:linear-gradient(to right,rgba(255, 217, 0, 0.645),rgba(255, 217, 0, 0.700),rgba(255, 217, 0, 0.740),rgba(255, 217, 0, 0.770));
-text-align:justify;
+
+    text-align:center;
+    padding: 5em;
 }
 
 
 .imagen{
     height: auto;
     width: auto;
-    
+
 }
-    
+
 .imagen2{
     height: auto;
     width: 500px;

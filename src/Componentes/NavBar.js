@@ -1,10 +1,11 @@
 import React from 'react';
 import {Nav, Navbar, NavDropdown} from "react-bootstrap";
 import logo from '../logo192.png';
+
 export default function NavBar () {
 return (
     <div>
-        <Navbar bg={"light"} variant={"light"} expand="lg" fixed={"top"}>
+        <Navbar  expand="lg" sticky="top">
             <div className="container">
                 <Navbar.Brand href="/">
                     <img

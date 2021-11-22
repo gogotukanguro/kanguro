@@ -11,7 +11,7 @@ export default function Header ({titulo, descripcion, boton}) {
             <div className="container">
                 <div className="row">
                     <div className="col-auto">
-                        <h1 className="HeaderTitle">{titulo}</h1>
+                        <h1 className="HeaderTitle"><strong>{titulo}</strong></h1>
                     </div>
                 </div>
                 <div className="row">

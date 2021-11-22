@@ -87,26 +87,22 @@ export default function Home () {
 
 
                 <div className="container-expand">
-                        <div className="row recuadro2columnas">
+                        <div className="row">
 
-                            <div className="col recuardo1eracolumna ">
+                            <div className="col recuardo1eracolumna">
                                 <div className={"Textorecuadro"}>
-                                    <p> </p>
                                     <h3>¿Necesitas un kanguro para hoy?</h3>
                                     <p>Estamos 24h a tu servicio para poder brindar a tus pequeños los mejores cuidados con la mejor atención. Además, contamos con cámaras de videovigilancia que podrás ver en linea durante el servicio de tu peque.</p>
                                     <Button class="btn btn-info" variant={"dark"} href={"/Reservas"}>Buscar kanguro</Button>
-                                    <p> </p>
                                 </div>
                             </div>
 
                             <div className="col recuardo2ndacolumna">
                                 <div className={"Textorecuadro"}>
-                                    <p> </p>
                                     <h3>¿Te gustaría trabajar como kanguro?</h3>
                                     <p>Hemos tenido una muy buena acogida hasta ahora, y estamos haciendo lo que está en nuestra mano para ofrecer a todos los que quieren ser canguros un puesto de trabajo.</p>
                                     <Button class="btn btn-warning" variant={"dark"} href={"/ComoSerKanguro"}>Trabaja con nosotros</Button>
 
-                                    <p> </p>
                                 </div>
                             </div>
                         </div>

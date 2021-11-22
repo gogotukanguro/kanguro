@@ -1,7 +1,6 @@
 .Header{
     /* Fijar la imagen de fondo este vertical y
       horizontalmente y centrado */
-    position: relative;
     display: flex;
 
     background-position: center center;
@@ -16,11 +15,11 @@
     background-size: cover;
 
     /* Damos un color de fondo mientras la imagen está cargando  */
-    background-color: #61dafb;
-    height: 350px;
+    background-color: #e1fff9;
+    height: 100vh;
 }
 .Header .container{
-    margin-top: 150px;
+    margin: auto;
 }
 .HeaderTitle{
 }
