@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cf08ca1-8e8c-4916-bba9-26fcfb8bfd54" name="Default Changelist" comment="Lunes 01/11/21">
+    <list default="true" id="2cf08ca1-8e8c-4916-bba9-26fcfb8bfd54" name="Default Changelist" comment="Lunes 22/11/21">
+      <change afterPath="$PROJECT_DIR$/src/Animaciones.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Componentes/FilaTexto.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.cache/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/CSS/Home.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS/Home.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CSS/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/CSS/header.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Componentes/NavBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componentes/NavBar.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Componentes/header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Componentes/header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Paginas/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Paginas/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,8 +29,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="CSS File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -99,7 +101,8 @@
       <workItem from="1635778947512" duration="4590000" />
       <workItem from="1635783605331" duration="924000" />
       <workItem from="1637000620431" duration="2076000" />
-      <workItem from="1637605473043" duration="3276000" />
+      <workItem from="1637605473043" duration="3969000" />
+      <workItem from="1637701007822" duration="6737000" />
     </task>
     <task id="LOCAL-00001" summary="footer prueba">
       <created>1633108939299</created>
@@ -136,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1635783380578</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Lunes 22/11/21">
+      <created>1637611018539</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1637611018539</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -159,6 +169,7 @@
     <MESSAGE value="footer prueba" />
     <MESSAGE value="Domingo mañana 03/10/21" />
     <MESSAGE value="Lunes 01/11/21" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lunes 01/11/21" />
+    <MESSAGE value="Lunes 22/11/21" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lunes 22/11/21" />
   </component>
 </project>

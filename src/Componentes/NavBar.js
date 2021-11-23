@@ -1,11 +1,19 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import {Nav, Navbar, NavDropdown} from "react-bootstrap";
 import logo from '../logo192.png';
 
+
 export default function NavBar () {
+    /*const [variant, setVariant] = useState("light");
+    function changeColor () {
+      setVariant("dark");
+    }
+    useEffect(()=>{
+
+    },variant)*/
 return (
     <div>
-        <Navbar  expand="lg" sticky="top">
+        <Navbar  id={"Navegador"}  expand="lg" fixed="top" >
             <div className="container">
                 <Navbar.Brand href="/">
                     <img
