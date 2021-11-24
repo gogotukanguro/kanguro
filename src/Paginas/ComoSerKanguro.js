@@ -20,7 +20,7 @@ export default function ComoSerKanguro () {
 
         <div>
             <NavBar/>
-            <Header titulo={"¿Te gustaría trabajar con nosotros?"} descripcion={"descripcion...."} boton={false}/>
+            <Header titulo={"¡TRABAJA CON NOSOTROS!"} descripcion={"descripcion...."} boton={false}/>
 
             <div className={"Service"}>
                 <div className="container">

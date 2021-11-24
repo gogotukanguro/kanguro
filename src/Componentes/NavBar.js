@@ -1,19 +1,31 @@
 import React, {useState, useEffect} from 'react';
 import {Nav, Navbar, NavDropdown} from "react-bootstrap";
 import logo from '../logo192.png';
-
+import '../CSS/NavBar.css';
 
 export default function NavBar () {
-    /*const [variant, setVariant] = useState("light");
-    function changeColor () {
-      setVariant("dark");
-    }
-    useEffect(()=>{
+    const [variant, setVariant] = useState('');
+    const [offset, setOffset] = useState(0);
 
-    },variant)*/
+    useEffect(() => {
+            if (offset >= window.screen.height/5) {
+                setVariant('#fffec3');
+            }else {
+                setVariant("");
+            }
+            window.onscroll = () => {
+                setOffset(window.pageYOffset);
+
+            }
+        },
+        [offset]);
+
+    console.log(offset + variant + " " + window.screen.height);
+
+
 return (
     <div>
-        <Navbar  id={"Navegador"}  expand="lg" fixed="top" >
+        <Navbar id={"Navegador"}  style={{background: variant}} expand="lg" fixed="top">
             <div className="container">
                 <Navbar.Brand href="/">
                     <img

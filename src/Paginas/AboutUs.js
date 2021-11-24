@@ -8,7 +8,7 @@ export default function AboutUs () {
 
         <div>
             <NavBar/>
-            <Header titulo={"Sobre nosotros"} descripcion={"Conócenos y confia plenamente en tu Kanguro"} boton={false}/>
+            <Header titulo={"SOBRE NOSOTROS"} descripcion={"Conócenos y confia plenamente en tu Kanguro"} boton={false}/>
             <div className="container">
                 <div className= "row">
                     <div className="col">
