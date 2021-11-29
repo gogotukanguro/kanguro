@@ -9,9 +9,11 @@ export default function Reservas () {
         <div>
             <NavBar/>
             <Header titulo={"RESERVA TU KANGURO"} descripcion={"Reserva el dia y hora de una manera rápida y sencilla"} boton={false}/>
-            <div className="container">
-                <div className= "row">
-                    <div className="col">
+            <div className={"Service"}>
+                <div className="container">
+                    <div className= "row">
+                        <div className="col">
+                        </div>
                     </div>
                 </div>
             </div>

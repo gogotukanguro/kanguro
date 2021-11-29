@@ -15,12 +15,10 @@ export default function NavBar () {
             }
             window.onscroll = () => {
                 setOffset(window.pageYOffset);
-
             }
         },
         [offset]);
 
-    console.log(offset + variant + " " + window.screen.height);
 
 
 return (
