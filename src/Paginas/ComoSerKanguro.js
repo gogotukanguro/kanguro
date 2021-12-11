@@ -45,7 +45,7 @@ export default function ComoSerKanguro () {
                         </div>
                         <div className="col">
                             <h3>¿Dónde encontranos?</h3>
-                            <ul>
+                            <ul className="listaContacto">
                                 <li><p><strong>Mail:</strong></p>
                                     <p className={"Mail"} onClick={() => redirect()}>gogotukanguro@gmail.com</p></li>
                                 <li><p><strong>Teléfono:</strong></p>

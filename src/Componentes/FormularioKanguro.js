@@ -21,7 +21,7 @@ export default function Formulario () {
     }
 
     return (
-        <Form onSubmit={handleSumbit}>
+        <Form onSubmit={handleSumbit} className={"FromularioKanguro"}>
             <Row>
                 <Form.Group as={Col} controlId="formNombre">
                     <Form.Label>Nombre</Form.Label>
@@ -59,7 +59,7 @@ export default function Formulario () {
                 </Form.Group>
             </Row>
 
-            <Button variant={"dark"} type="submit" className="mb-2">
+            <Button variant={"dark"} type="submit" className="mb-2" size={"lg"}>
                 Enviar
             </Button>
         </Form>

@@ -6,3 +6,16 @@
     color: #398bff;
     text-decoration: underline;
 }
+
+ Form label{
+     font-size: 1.3em;
+ }
+
+ .listaContacto li, p{
+     padding-top: 0em;
+     font-size: 1em;
+ }
+
+ .FromularioKanguro .row{
+     margin-top: 3em;
+ }
