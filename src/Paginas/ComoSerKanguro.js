@@ -26,7 +26,7 @@ export default function ComoSerKanguro () {
                 <div className="container">
                     <div className= "row">
                         <div className="col">
-                            <h4>¿Cómo trabajamos?</h4>
+                            <h3>¿Cómo trabajamos?</h3>
                         </div>
                         <div className="col">
                             <img src={logo}/>
@@ -36,7 +36,7 @@ export default function ComoSerKanguro () {
                 <div className="container">
                     <div className= "row">
                         <div className="col">
-                            <h4>Forma Parte de Kanguro</h4>
+                            <h3>Forma Parte de Kanguro</h3>
                             <p>Si estás interesada en formar parte GoGo! Tu Kanguro! estás en el lugar indicado.</p>
                             <p>Para poder integrarte en nuestro equipo de Kanguros necesitamos que nos facilites la siguiente información.</p>
                             <p>En cuanto podamos te llamaremos!</p>
@@ -44,7 +44,7 @@ export default function ComoSerKanguro () {
                             <Formulario/>
                         </div>
                         <div className="col">
-                            <h4>¿Dónde encontranos?</h4>
+                            <h3>¿Dónde encontranos?</h3>
                             <ul>
                                 <li><p><strong>Mail:</strong></p>
                                     <p className={"Mail"} onClick={() => redirect()}>gogotukanguro@gmail.com</p></li>

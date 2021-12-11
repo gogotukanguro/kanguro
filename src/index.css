@@ -25,11 +25,19 @@ body h3{
   font-size: 2em;
 }
 
+Nav.Link{
+  font-size: 1.3em;
+}
+
 body p{
   padding-top: 1em;
   font-size: 1.3em;
 }
 
+body li{
+  padding-top: 0.5em;
+  font-size: 1.3em;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

@@ -93,7 +93,7 @@ export default function Home () {
                 <div className="container">
                     <div className="row">
                             <div className="col">
-                            <h4>Nuestros servicios</h4>
+                            <h3>Nuestros servicios</h3>
                             <ul>
                                 <li>Las mejores cuidadoras</li>
                                 <li>Videovigilancia online</li>
@@ -101,13 +101,17 @@ export default function Home () {
                                 <li>Nos adaptamos a tus necesidades</li>
                                 <li>Bajo la protección de “un seguro”</li>
                             </ul>
-                            <h4>Soluciona problemas puntuales</h4>
+                                <br/>
+
+                                <h3>Soluciona problemas puntuales</h3>
                             <ul>
                                 <li>Planifica con tiempo</li>
                                 <li>Soluciona imprevistos</li>
                                 <li>Tiempo para ti</li>
                             </ul>
-                            <h4>¡Soluciona problemas con GoGo! Tu Kanguro…</h4>
+                                <br/>
+
+                            <h3>¡Soluciona problemas con GoGo! Tu Kanguro…</h3>
                             <ul>
                                 <li>Organiza tu tiempo</li>
                                 <li>Soluciona imprevistos</li>

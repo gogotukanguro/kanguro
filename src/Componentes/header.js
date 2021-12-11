@@ -22,7 +22,7 @@ export default function Header ({titulo, descripcion, boton}) {
                 { boton ?
                     <div className="row">
                         <div className="col">
-                            <Button variant={"outline-dark"} href={"/Reservas"}>Kanguros</Button>
+                            <Button variant={"outline-dark"} href={"/Reservas"} size={"lg"}>Kanguros</Button>
                         </div>
                     </div>
                     :
