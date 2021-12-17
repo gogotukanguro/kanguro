@@ -5,21 +5,20 @@ export default function useMail () {
     const enviaMail = useCallback((item) => {
         const body = JSON.stringify(item);
         alert(body);
-        fetch("https://localhost/SentMail.php",{
+        fetch("http://localhost/SentMail.php",{
             method: "POST",
             headers: {
                 "Content-Type": 'application/json'
             },
             body: body
         }).then(res => {
-
             return res.json();
         }).then((res) => {
-            if(res){
-               alert("hola")
+            if(!res){
+               alert(res)
             }else
                 alert(res);
-        });
+        }).catch(e => alert(e));
     })
 
 
